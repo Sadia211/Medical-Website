@@ -1,0 +1,42 @@
+.header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(3, 136, 112);
+        position: sticky;
+    top: 0;
+    
+  }
+  
+  
+  .Line{
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+  }
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 0px;
+    color:white;
+    font-weight: 200;
+  }
+  .logo{
+height:90px;
+width: 150px;
+margin-left: 5px;
+
+
+  }
+ 
+  .Cart{
+    font-size: 20px;
+    color:white;
+     font-weight: 400;
+  }

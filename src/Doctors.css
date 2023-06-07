@@ -1,0 +1,19 @@
+
+    .heading>h3{
+        padding: 20px;
+        font-size: 40px;
+        font-weight: 500;
+        font-family:inherit;
+        margin-left: 50px;
+        display:inline-flexbox;
+        margin-bottom: 200px;
+        
+    }
+    
+    
+    .docrow{
+    height:600px;
+    display: flex; 
+      z-index: 1; 
+    }
+   

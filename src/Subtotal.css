@@ -1,0 +1,20 @@
+.Subtotal{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 500px;
+height: 150px;
+font-size: 30px;
+margin-right: 10px;
+padding: 20px;
+background-color: rgba(200, 228, 241, 0.836);
+
+}
+.Subtotal>button{
+    margin-right: 10px;
+background-color: rgb(240, 195, 17);
+width:300px;
+height:40px;
+border-radius: 5px;
+}

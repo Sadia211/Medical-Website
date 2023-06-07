@@ -1,0 +1,36 @@
+.Buy{margin-top: 70px;
+}
+
+.form{
+    
+    display: flex;
+
+border-radius: 10px;
+border:1px  solid;
+padding:20px;
+}
+.form>input{
+    width:800px;
+    height:80px;
+    font-size: 26px;
+}
+.form>select{ width:800px;
+    height:80px;
+    font-size: 26px;}
+.pay_section{
+    display:flex;
+    padding:20px;
+    margin:20px;
+    border-bottom: 1px solid;
+}
+.form>button{
+
+    font-size: 20px;
+    background-color: rgb(26, 171, 96);
+    
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    
+    margin-top: 10px;
+}
