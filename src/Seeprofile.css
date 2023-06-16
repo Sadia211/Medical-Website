@@ -1,3 +1,5 @@
+
+
 .profile{
     margin-top: 100px;
 
@@ -8,7 +10,7 @@ align-items: center;
 }
 
 
-.container{
+.container1{
     background-color: white;
     width:600px;
     height:500px;
@@ -17,6 +19,8 @@ align-items: center;
 border-radius: 10px;
 border:1px  solid;
 padding:20px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:x-large;
 }
 
 
@@ -37,14 +41,9 @@ padding:20px;
 
 }
 
-
 .secondcontainer{
     height:50px;
     margin-bottom: 10px;
     width:90%;
     display: flex;
-}
-.sf{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:x-large;
 }

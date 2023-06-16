@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import {db} from './firebase'
 import './Patientsprofile.css'
 import {Link,useNavigate} from "react-router-dom";
-
+import './Patientlogin'
 import {auth} from './firebase'
 
 function Patientsprofile() {
@@ -26,7 +26,8 @@ function Patientsprofile() {
       age: Age,
       Medicine:Medicine,
       Dosage:Dosage,
-      Time:Time
+      Time:Time,
+      patientEmail: auth.currentUser.email
     });
   
     setName("");
@@ -98,7 +99,9 @@ function Patientsprofile() {
             </tr>
           ))}
 </div>
-
+<Link to="/Seeprofile">
+            <span className="sp">View profile</span>
+            </Link>
  </div>)}
  
   

@@ -36,7 +36,7 @@ function Patientlogin() {
               <h3>Password</h3>
               <input type='password' value={password} onChange={e => setPassword(e.target.value)}/> 
               <button type='submit' onClick={plogin} className='signinbutton'>LogIn</button><br></br>
-              <Link to="/Seeprofile"> See profile</Link>
+              
           </form>
   
         </div>
